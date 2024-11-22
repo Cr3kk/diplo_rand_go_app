@@ -67,7 +67,7 @@ func main() {
 
 	newCountries := logic(data.PrevCountries)
 
-	myApp := app.New()
+	myApp := app.NewWithID("com.randomizer.diplo")
 	myWindow := myApp.NewWindow("Randomized Countries")
 
 	var countryOptions []string
